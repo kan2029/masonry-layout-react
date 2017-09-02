@@ -1,0 +1,45 @@
+{
+  "name": "masonry-layout-react",
+  "version": "1.0.0",
+  "description": "A wrapper component that arranges the passed items in a masonry layout.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kan2029/masonry-layout-react.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "masonry-layout",
+    "masonry"
+  ],
+  "author": "Karanbir Kajal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kan2029/masonry-layout-react/issues"
+  },
+  "homepage": "https://github.com/kan2029/masonry-layout-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redux": "^3.7.2",
+    "style-loader": "^0.18.2"
+  }
+}

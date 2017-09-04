@@ -1900,11 +1900,7 @@ var Masonry = function (_Component) {
 	_createClass(Masonry, [{
 		key: 'componentDidMount',
 		value: function componentDidMount() {
-			var _this2 = this;
-
-			setTimeout(function () {
-				_this2.applyStyletoCards();
-			}, 1000);
+			this.applyStyletoCards();
 		}
 	}, {
 		key: 'componentDidUpdate',
@@ -1914,7 +1910,7 @@ var Masonry = function (_Component) {
 	}, {
 		key: 'render',
 		value: function render() {
-			var _this3 = this;
+			var _this2 = this;
 
 			return _react2.default.createElement(
 				'section',
@@ -1922,13 +1918,13 @@ var Masonry = function (_Component) {
 				_react2.default.createElement(
 					'section',
 					{ className: 'subroot', ref: function ref(r) {
-							_this3.subroot = r;
+							_this2.subroot = r;
 						} },
 					_react2.default.Children.map(this.props.children, function (child, i) {
 						return _react2.default.createElement(
 							'section',
-							{ className: (0, _classnames2.default)('cardWrapper', typeof _this3.props.cardWrapperClass !== 'undefined' && _this3.props.cardWrapperClass), style: { width: 'calc(' + 100 / _this3.columnCount + '% - ' + (_this3.horizontalSpacing - _this3.horizontalSpacing / _this3.columnCount) + 'px)' }, ref: function ref(r) {
-									_this3['card_' + i] = r;
+							{ className: (0, _classnames2.default)('cardWrapper', typeof _this2.props.cardWrapperClass !== 'undefined' && _this2.props.cardWrapperClass), style: { width: 'calc(' + 100 / _this2.columnCount + '% - ' + (_this2.horizontalSpacing - _this2.horizontalSpacing / _this2.columnCount) + 'px)' }, ref: function ref(r) {
+									_this2['card_' + i] = r;
 								} },
 							child
 						);

@@ -21,9 +21,7 @@ class Masonry extends Component {
 	}
 
 	componentDidMount() {
-		setTimeout(() => {
-			this.applyStyletoCards();
-		}, 1000);
+		this.applyStyletoCards();
 	}
 
 	componentDidUpdate() {

@@ -13,10 +13,13 @@ module.exports = {
 		],
 		example1: [
 			'./examples/1/index.js'
+		],
+		example2: [
+			'./examples/2/index.js'
 		]
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist'), // returns an absolute path
+		path: path.resolve(__dirname, 'dist'),
 		filename: '[name].js',
     chunkFilename: '[name].js',
     publicPath: '/dist'

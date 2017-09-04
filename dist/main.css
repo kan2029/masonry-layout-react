@@ -1,13 +1,15 @@
 .root {
   position: relative;
-  padding: 15px;
-  background-color: #ccc; }
+  padding: 15px; }
 
 .subroot {
   position: relative;
-  background-color: #eee;
   z-index: -1;
-  opacity: 0; }
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out; }
 
 .subrootActive {
   z-index: 1;
@@ -19,4 +21,24 @@
   vertical-align: top;
   background-color: #ddd;
   padding: 12px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 4px; }
+h2 {
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #555; }
+
+img {
+  width: 100%;
+  margin: 20px 0; }
+
+p {
+  font-family: cursive; }
+
+.containerClass {
+  border: 5px solid #aaa;
+  padding: 5px; }
+
+.cardWrapperClass {
+  background-color: #fff2d4; }

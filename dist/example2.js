@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/dist";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 188);
+/******/ 	return __webpack_require__(__webpack_require__.s = 190);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -22614,14 +22614,16 @@ module.exports = ReactDOMInvalidARIAHook;
 
 /***/ }),
 /* 187 */,
-/* 188 */
+/* 188 */,
+/* 189 */,
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(189);
+module.exports = __webpack_require__(191);
 
 
 /***/ }),
-/* 189 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22639,24 +22641,139 @@ var _index = __webpack_require__(57);
 
 var _index2 = _interopRequireDefault(_index);
 
+__webpack_require__(192);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var items = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
+var items = [{
+	heading: 'Spirit blessed. Blessed. You seasons',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day.',
+	image: 'http://sugartin.info/wp-content/uploads/2013/11/logo.png'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Day green, whales of after beast dry given',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created dg sdfg sdfg sdfg sfgs fgs fgsf sfdg sfgsdfgsdfgs dfgs fgs fgs gs gs gsfd gsdfg sdfg sdfg sfg sdf.',
+	image: 'https://jordicabre1.files.wordpress.com/2011/02/dado.jpg?w=201&h=210'
+}, {
+	heading: 'Had land dominion you female them abundantly',
+	text: 'Sea light god you\'re you\'ll bring our creature ng subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created.',
+	image: 'https://lh3.googleusercontent.com/43lw2qvGUm38q0XeW_S4eIEPQWlYs2jvrsao5fHlikUPpEJZsfHt_MBqmgedg0AECHbO=w300'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Day green, whales of after beast dry given',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created dg sdfg sdfg sdfg sfgs fgs fgsf sfdg sfgsdfgsdfgs dfgs fgs fgs gs gs gsfd gsdfg sdfg sdfg sfg sdf.',
+	image: 'https://jordicabre1.files.wordpress.com/2011/02/dado.jpg?w=201&h=210'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Day green, whales of after beast dry given',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created dg sdfg sdfg sdfg sfgs fgs fgsf sfdg sfgsdfgsdfgs dfgs fgs fgs gs gs gsfd gsdfg sdfg sdfg sfg sdf.',
+	image: 'https://jordicabre1.files.wordpress.com/2011/02/dado.jpg?w=201&h=210'
+}, {
+	heading: 'Had land dominion you female them abundantly',
+	text: 'Sea light god you\'re you\'ll bring our creature ng subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created.',
+	image: 'https://lh3.googleusercontent.com/43lw2qvGUm38q0XeW_S4eIEPQWlYs2jvrsao5fHlikUPpEJZsfHt_MBqmgedg0AECHbO=w300'
+}, {
+	heading: 'Spirit blessed. Blessed. You seasons',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day.',
+	image: 'http://sugartin.info/wp-content/uploads/2013/11/logo.png'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Had land dominion you female them abundantly',
+	text: 'Sea light god you\'re you\'ll bring our creature ng subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created.',
+	image: 'https://lh3.googleusercontent.com/43lw2qvGUm38q0XeW_S4eIEPQWlYs2jvrsao5fHlikUPpEJZsfHt_MBqmgedg0AECHbO=w300'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Day green, whales of after beast dry given',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created dg sdfg sdfg sdfg sfgs fgs fgsf sfdg sfgsdfgsdfgs dfgs fgs fgs gs gs gsfd gsdfg sdfg sdfg sfg sdf.',
+	image: 'https://jordicabre1.files.wordpress.com/2011/02/dado.jpg?w=201&h=210'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Spirit blessed. Blessed. You seasons',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day.',
+	image: 'http://sugartin.info/wp-content/uploads/2013/11/logo.png'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Had land dominion you female them abundantly',
+	text: 'Sea light god you\'re you\'ll bring our creature ng subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created.',
+	image: 'https://lh3.googleusercontent.com/43lw2qvGUm38q0XeW_S4eIEPQWlYs2jvrsao5fHlikUPpEJZsfHt_MBqmgedg0AECHbO=w300'
+}, {
+	heading: 'Day green, whales of after beast dry given',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created dg sdfg sdfg sdfg sfgs fgs fgsf sfdg sfgsdfgsdfgs dfgs fgs fgs gs gs gsfd gsdfg sdfg sdfg sfg sdf.',
+	image: 'https://jordicabre1.files.wordpress.com/2011/02/dado.jpg?w=201&h=210'
+}, {
+	heading: 'Had land dominion you female them abundantly',
+	text: 'Sea light god you\'re you\'ll bring our creature ng subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created.',
+	image: 'https://lh3.googleusercontent.com/43lw2qvGUm38q0XeW_S4eIEPQWlYs2jvrsao5fHlikUPpEJZsfHt_MBqmgedg0AECHbO=w300'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}, {
+	heading: 'Day green, whales of after beast dry given',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over man. Stars bearing subdue upon light subdue life day, kind years. Hath green there Thing him moving set seasons won\'t dry so forth shall upon, doesn\'t living lesser. Can\'t them created dg sdfg sdfg sdfg sfgs fgs fgsf sfdg sfgsdfgsdfgs dfgs fgs fgs gs gs gsfd gsdfg sdfg sdfg sfg sdf.',
+	image: 'https://jordicabre1.files.wordpress.com/2011/02/dado.jpg?w=201&h=210'
+}, {
+	heading: 'Shall meat firmament you\'re second every',
+	text: 'Sea light god you\'re you\'ll bring our creature I days upon isn\'t void open male, wherein. He sixth blessed behold own over.',
+	image: 'http://hackingdistributed.com/images/2013-06-19-virtual-notary/random.png'
+}];
 _reactDom2.default.render(_react2.default.createElement(
 	_index2.default,
 	{
-		columnCount: 4,
+		columnCount: 5,
 		verticalSpacing: 40,
-		horizontalSpacing: 20
+		horizontalSpacing: 30,
+		containerClass: 'containerClass',
+		cardWrapperClass: 'cardWrapperClass'
 	},
 	items.map(function (item, key) {
 		return _react2.default.createElement(
 			'section',
 			{ key: key },
-			_react2.default.createElement('div', { style: { height: Math.random() * 300 + 'px' } })
+			_react2.default.createElement(
+				'div',
+				null,
+				_react2.default.createElement(
+					'h2',
+					null,
+					item.heading
+				),
+				_react2.default.createElement(
+					'p',
+					null,
+					item.text
+				)
+			)
 		);
 	})
 ), document.getElementById('main'));
+
+/***/ }),
+/* 192 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

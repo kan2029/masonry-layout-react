@@ -12,7 +12,6 @@ ReactDOM.render(
 		{
 			items.map((item, key) =>
 				<section key={key}>
-					{/* your card here */}
 					<div style={{height: `${Math.random() * 300}px`}} />
 				</section>
 			)
@@ -20,8 +19,3 @@ ReactDOM.render(
 	</Masonry>,
 	document.getElementById('main')
 );
-
-// TODO: 
-// for mobile ?
-// container class
-// pagination support

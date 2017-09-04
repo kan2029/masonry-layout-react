@@ -1,0 +1,22 @@
+.root {
+  position: relative;
+  padding: 15px;
+  background-color: #ccc; }
+
+.subroot {
+  position: relative;
+  background-color: #eee;
+  z-index: -1;
+  opacity: 0; }
+
+.subrootActive {
+  z-index: 1;
+  opacity: 1; }
+
+.cardWrapper {
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ddd;
+  padding: 12px;
+  box-sizing: border-box; }

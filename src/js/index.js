@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import './Masonry.scss';
+import '../scss/index.scss';
 import utils from './utils';
 import cx from 'classnames';
 

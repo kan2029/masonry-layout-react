@@ -7,11 +7,22 @@ var extractPlugin = new ExtractTextPlugin({
 });
 
 module.exports = {
-	entry: './src/main.js',
+	entry: {
+		bundle: [
+			'./src/js/index.js'
+		],
+		example1: [
+			'./examples/1/index.js'
+		],
+		example2: [
+			'./examples/2/index.js'
+		]
+	},
 	output: {
-		path: path.resolve(__dirname, 'dist'), // returns an absolute path
-		filename: 'bundle.js',
-		publicPath: '/dist'
+		path: path.resolve(__dirname, 'dist'),
+		filename: '[name].js',
+    chunkFilename: '[name].js',
+    publicPath: '/dist'
 	},
 	module: {
 		rules: [

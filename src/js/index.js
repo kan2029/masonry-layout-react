@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import './Masonry.scss';
+import '../scss/index.scss';
 import utils from './utils';
 import cx from 'classnames';
 
@@ -29,7 +29,7 @@ class Masonry extends Component {
 	}
 
 	getStyle = (columnCount, minObj, index) => {
-		const cardWidth = (this.wrapperWidth / columnCount - this.horizontalSpacing + this.horizontalSpacing / columnCount);
+		const cardWidth = (this.wrapperWidth / columnCount - this.horizontalSpacing + this.horizontalSpacing / this.columnCount);
 		return {
 			width: `${cardWidth}px`,
 			top: `${+minObj.minVal + (index >= columnCount ? +this.verticalSpacing : 0)}px`,
@@ -72,7 +72,7 @@ class Masonry extends Component {
 				<section className="subroot" ref={(r) => {this.subroot = r;}}>
 					{
 						React.Children.map(this.props.children, (child, i) =>
-							<section className="cardWrapper" ref={(r) => {this[`card_${i}`] = r;}} >
+							<section className={cx('cardWrapper', typeof this.props.cardWrapperClass !== 'undefined' && this.props.cardWrapperClass)} style={{width: `calc(${100 / this.columnCount}% - ${this.horizontalSpacing - this.horizontalSpacing / this.columnCount}px)`}} ref={(r) => {this[`card_${i}`] = r;}} >
 								{child}
 							</section>
 						)

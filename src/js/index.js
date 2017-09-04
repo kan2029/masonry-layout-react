@@ -24,12 +24,16 @@ class Masonry extends Component {
 		this.applyStyletoCards();
 	}
 
+	componentWillUpdate() {
+		this.heightsArr = utils.initializeHeightsArr(this.columnCount);
+	}
+
 	componentDidUpdate() {
 		this.applyStyletoCards();
 	}
 
 	getStyle = (columnCount, minObj, index) => {
-		const cardWidth = (this.wrapperWidth / columnCount - this.horizontalSpacing + this.horizontalSpacing / this.columnCount);
+		const cardWidth = (this.wrapperWidth / columnCount - ((columnCount - 1) / columnCount) * this.horizontalSpacing);
 		return {
 			width: `${cardWidth}px`,
 			top: `${+minObj.minVal + (index >= columnCount ? +this.verticalSpacing : 0)}px`,
@@ -72,7 +76,7 @@ class Masonry extends Component {
 				<section className="subroot" ref={(r) => {this.subroot = r;}}>
 					{
 						React.Children.map(this.props.children, (child, i) =>
-							<section className={cx('cardWrapper', typeof this.props.cardWrapperClass !== 'undefined' && this.props.cardWrapperClass)} style={{width: `calc(${100 / this.columnCount}% - ${this.horizontalSpacing - this.horizontalSpacing / this.columnCount}px)`}} ref={(r) => {this[`card_${i}`] = r;}} >
+							<section className={cx('cardWrapper', typeof this.props.cardWrapperClass !== 'undefined' && this.props.cardWrapperClass)} style={{width: `calc(${100 / this.columnCount}% - ${((this.columnCount - 1) / this.columnCount) * this.horizontalSpacing}px)`}} ref={(r) => {this[`card_${i}`] = r;}} >
 								{child}
 							</section>
 						)

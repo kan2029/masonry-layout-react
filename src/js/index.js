@@ -5,7 +5,7 @@ import cx from 'classnames';
 
 class Masonry extends Component {
 	static propTypes = {
-		columnCount: PropTypes.number.isRequired,
+		columnCount: PropTypes.number,
 		verticalSpacing: PropTypes.number,
 		horizontalSpacing: PropTypes.number,
 		containerClass: PropTypes.string,

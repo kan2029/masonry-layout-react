@@ -1,6 +1,6 @@
 {
   "name": "masonry-layout-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper component that arranges the passed items in a masonry layout.",
   "main": "dist/bundle.js",
   "scripts": {
